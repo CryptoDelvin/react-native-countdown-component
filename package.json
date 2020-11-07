@@ -1,6 +1,10 @@
-{
+{{
   "name": "react-native-countdown-component",
   "version": "2.7.1",
+  "engines":{
+  	"node": "12.19.0",
+  	"npm": "6.14.8"
+  },
   "description": "React Native CountDown Component",
   "repository": {
     "type": "git",
@@ -27,7 +31,8 @@
   },
   "dependencies": {
     "lodash": "^4.17.13",
-    "sprintf-js": "^1.1.1",
-    "prop-types": "^15.5.8"
+    "prop-types": "^15.5.8",
+    "react-native-countdown-component": "^2.7.1",
+    "sprintf-js": "^1.1.1"
   }
 }
